@@ -1,0 +1,7 @@
+Para la ejecucion de:
+	* wibisProyecto
+	* proyecto.mpp
+Se necesitan 2 tipos de software instalados en su pc ya que trabajan en conjunto:
+	* Microsoft Project
+	* WBS Chart Pro
+
