@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LogRegForm</class>
+ <widget class="QMainWindow" name="LogRegForm">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>350</width>
+    <height>511</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>350</width>
+    <height>511</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Mi Deporte Movil</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/img/ico2.ico</normaloff>:/img/ico2.ico</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image : url(:/img/logReg.png);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnLogin">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>260</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>94</width>
+      <height>61</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>181</width>
+      <height>61</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Castellar</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btnLogin {
+	color: #333;
+	border: 2px solid #555;
+	border-radius: 11px;
+	padding: 5px;
+	background: qradialgradient(cx: 0.3, cy: -0.4,
+	fx: 0.3, fy: -0.4,
+	radius: 1.35, stop: 0 #fff, stop: 1 #888);
+	min-width: 80px;
+}
+#btnLogin:hover {
+	background: qradialgradient(cx: 0.3, cy: -0.4,
+	fx: 0.3, fy: -0.4,
+	radius: 1.35, stop: 0 #fff, stop: 1 #bbb);
+}
+#btnLogin:pressed {
+	background: qradialgradient(cx: 0.4, cy: -0.1,
+	fx: 0.4, fy: -0.1,
+	radius: 1.35, stop: 0 #fff, stop: 1 #ddd);
+}</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnRegister">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>360</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>94</width>
+      <height>61</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>181</width>
+      <height>61</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Castellar</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btnRegister {
+	color: #333;
+	border: 2px solid #555;
+	border-radius: 11px;
+	padding: 5px;
+	background: qradialgradient(cx: 0.3, cy: -0.4,
+	fx: 0.3, fy: -0.4,
+	radius: 1.35, stop: 0 #fff, stop: 1 #888);
+	min-width: 80px;
+}
+#btnRegister:hover {
+	background: qradialgradient(cx: 0.3, cy: -0.4,
+	fx: 0.3, fy: -0.4,
+	radius: 1.35, stop: 0 #fff, stop: 1 #bbb);
+}
+#btnRegister:pressed {
+	background: qradialgradient(cx: 0.4, cy: -0.1,
+	fx: 0.4, fy: -0.1,
+	radius: 1.35, stop: 0 #fff, stop: 1 #ddd);
+}</string>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>350</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

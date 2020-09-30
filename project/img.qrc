@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/logReg.png</file>
+        <file>img/login1.jpg</file>
+        <file>img/icono.png</file>
+        <file>img/user1.png</file>
+        <file>img/reg.png</file>
+        <file>img/register.jpg</file>
+        <file>img/reguster1.jpg</file>
+        <file>img/register1.png</file>
+        <file>img/background.png</file>
+        <file>img/datos.png</file>
+        <file>img/patrocinio/adidas_PNG8.png</file>
+        <file>img/patrocinio/adidas_PNG82.png</file>
+        <file>img/patrocinio/AdidasW.png</file>
+        <file>img/patrocinio/babolat.png</file>
+        <file>img/patrocinio/babolat2.png</file>
+        <file>img/patrocinio/Babolat-LogoW.png</file>
+        <file>img/patrocinio/nike.png</file>
+        <file>img/patrocinio/nike2.png</file>
+        <file>img/patrocinio/penn.png</file>
+        <file>img/patrocinio/penn2.png</file>
+        <file>img/patrocinio/Sports-Wallpapers2.jpg</file>
+        <file>img/patrocinio/Sports-Wallpapers5.jpg</file>
+        <file>img/patrocinio/Wilson-logo.svg.png</file>
+        <file>img/patrocinio/Wilson-logo.svg2.png</file>
+        <file>img/fondo.jpg</file>
+        <file>img/fondoTransparente.png</file>
+        <file>img/ico.png</file>
+        <file>img/ico2.ico</file>
+    </qresource>
+</RCC>
